@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7731cacf-d52a-40d6-a273-a3415067e511" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/EstadisticasApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/config/DatabaseConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/connection/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/controller/CountryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/implementations/iservices/ICountryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/implementations/services/CountryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/model/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/repository/CountryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2uVj7saBLenmYBs4MqAOlRo51A2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DatabaseConnection.executor": "Run",
+    "Application.EstadisticasApplication.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Maven.estadisticasBack [clean].executor": "Run",
+    "Maven.estadisticasBack [install].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/USER/Downloads/MySqlJdbcDriver/mysql-connector-j-9.1.0.jar",
+    "onboarding.tips.debug.path": "D:/Users/Repos/RUNT/estadisticasBack/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.EstadisticasApplication">
+    <configuration name="DatabaseConnection" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.estadisticas.connection.DatabaseConnection" />
+      <module name="estadisticasBack" />
+      <option name="VM_PARAMETERS" value="-Djava.library.path=&quot;D:\Program Files\jdbc&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EstadisticasApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.estadisticas.EstadisticasApplication" />
+      <module name="estadisticasBack" />
+      <option name="VM_PARAMETERS" value="-Djava.library.path=&quot;D:\Program Files\jdbc&quot;" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.estadisticas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DatabaseConnection" />
+      <item itemvalue="Application.EstadisticasApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EstadisticasApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7731cacf-d52a-40d6-a273-a3415067e511" name="Changes" comment="" />
+      <created>1742340473214</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742340473214</updated>
+    </task>
+    <servers />
+  </component>
+</project>
