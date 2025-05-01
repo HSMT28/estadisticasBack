@@ -21,4 +21,7 @@ public class Country {
 
     @Column(name = "COUNTRY_IMAGE", length = 500)
     private String image;
+
+    @Column(name = "COUNTRY_ORDEN")
+    private Long orden;
 }

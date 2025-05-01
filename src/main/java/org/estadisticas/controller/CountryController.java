@@ -1,7 +1,7 @@
 package org.estadisticas.controller;
 
+import org.estadisticas.dto.CountryOutDto;
 import org.estadisticas.implementations.iservices.ICountryService;
-import org.estadisticas.model.Country;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,17 +14,7 @@ public class CountryController {
     private ICountryService countryService;
 
     @GetMapping
-    public List<Country> getAllCountries() {
+    public List<CountryOutDto> getAllCountries() {
         return countryService.getAllCountries();
-    }
-
-    @GetMapping("/{name}")
-    public Country getCountryByName(@PathVariable String name) {
-        return countryService.getCountryByName(name);
-    }
-
-    @PostMapping
-    public Country createCountry(@RequestBody Country country) {
-        return countryService.saveCountry(country);
     }
 }
