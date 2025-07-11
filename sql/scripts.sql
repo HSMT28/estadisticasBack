@@ -43,7 +43,8 @@ VALUES
 ('Francia', 'FR', '/images/francia.png', 6),
 ('Inglaterra', 'EN', '/images/inglaterra.png', 7),
 ('Italia', 'IT', '/images/italia.png', 8),
-('Selecciones', 'SE', '/images/selecciones.png', 9)
+('Selecciones', 'SE', '/images/selecciones.png', 9),
+('Otro', 'OT', '', 10)
 GO
 
 INSERT INTO LEAGUES(LEAGUE_NAME, LEAGUE_IMAGE, LEAGUE_ID_COUNTRY)
@@ -64,7 +65,8 @@ VALUES
 ('Championship', '/images/championship.png', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'Inglaterra')),
 ('Serie A', '/images/serie_a.png', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'Italia')),
 ('Serie B', '/images/serie_b.png', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'Italia')),
-('Selecciones', '/images/seleccion.png', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'Selecciones'))
+('Selecciones', '/images/seleccion.png', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'Selecciones')),
+('Otro', '', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'Otro'))
 GO
 
 -- Primera Division Alemania
@@ -717,8 +719,10 @@ CREATE TABLE MATCHES
 	MATCH_ID_VISIT INT,
 	GOALS_LOCAL INT NULL,
 	GOALS_VISIT INT NULL,
-	CARDS_LOCAL INT NULL,
-	CARDS_VISIT INT NULL,
+	CARDS_YELLOW_LOCAL INT NULL,
+	CARDS_YELLOW_VISIT INT NULL,
+	CARDS_RED_LOCAL INT NULL,
+	CARDS_RED_VISIT INT NULL,
 	CORNERS_LOCAL INT NULL,
 	CORNERS_VISIT INT NULL,
 	SHOTS_LOCAL INT NULL,
