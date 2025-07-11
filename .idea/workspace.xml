@@ -5,33 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7731cacf-d52a-40d6-a273-a3415067e511" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/controller/LeagueController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/controller/MatchesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/controller/TeamsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/dto/CountryOutDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/dto/IMatchesOutDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/dto/MatchesOutDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/implementations/iservices/ILeagueService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/implementations/iservices/IMatchesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/implementations/iservices/ITeamsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/implementations/services/LeagueService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/implementations/services/MatchesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/implementations/services/TeamsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/mapper/CountryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/mapper/MatchesMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/model/Leagues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/model/Matches.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/model/Teams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/repository/LeaguesRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/repository/MatchesRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/repository/TeamsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/dto/MatchesDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/dto/PlayerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/dto/TeamDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/estadisticas/controller/CountryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/controller/CountryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/estadisticas/implementations/iservices/ICountryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/implementations/iservices/ICountryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/estadisticas/implementations/services/CountryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/implementations/services/CountryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/estadisticas/model/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/model/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/scripts.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/scripts.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/estadisticas/controller/MatchesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/controller/MatchesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/estadisticas/controller/TeamsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/controller/TeamsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/estadisticas/dto/IMatchesOutDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/dto/IMatchesOutDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/estadisticas/dto/MatchesOutDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/dto/MatchesOutDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/estadisticas/implementations/iservices/IMatchesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/implementations/iservices/IMatchesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/estadisticas/implementations/iservices/ITeamsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/implementations/iservices/ITeamsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/estadisticas/implementations/services/MatchesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/implementations/services/MatchesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/estadisticas/implementations/services/TeamsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/implementations/services/TeamsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/estadisticas/mapper/MatchesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/mapper/MatchesMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/estadisticas/model/Matches.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/model/Matches.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/estadisticas/model/StadisticsPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/model/StadisticsPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/estadisticas/repository/MatchesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/repository/MatchesRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
