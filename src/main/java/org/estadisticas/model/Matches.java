@@ -24,11 +24,17 @@ public class Matches {
     @Column(name = "GOALS_VISIT")
     private Long goalsVisit;
 
-    @Column(name = "CARDS_LOCAL")
-    private Long cardsLocal;
+    @Column(name = "CARDS_YELLOW_LOCAL")
+    private Long cardsYellowLocal;
 
-    @Column(name = "CARDS_VISIT")
-    private Long cardsVisit;
+    @Column(name = "CARDS_YELLOW_VISIT")
+    private Long cardsYellowVisit;
+
+    @Column(name = "CARDS_RED_LOCAL")
+    private Long cardsRedLocal;
+
+    @Column(name = "CARDS_RED_VISIT")
+    private Long cardsRedVisit;
 
     @Column(name = "CORNERS_LOCAL")
     private Long cornersLocal;

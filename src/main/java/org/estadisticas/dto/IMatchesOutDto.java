@@ -6,8 +6,10 @@ public interface IMatchesOutDto {
     Long getIdVisit();
     Long getGoalsLocal();
     Long getGoalsVisit();
-    Long getCardsLocal();
-    Long getCardsVisit();
+    Long getCardsYellowLocal();
+    Long getCardsRedLocal();
+    Long getCardsYellowVisit();
+    Long getCardsRedVisit();
     Long getCornersLocal();
     Long getCornersVisit();
     Long getShotsLocal();
@@ -18,4 +20,5 @@ public interface IMatchesOutDto {
     String getNameVisit();
     String getImageLocal();
     String getImageVisit();
+    String getResult();
 }

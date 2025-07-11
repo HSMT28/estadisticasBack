@@ -1,6 +1,5 @@
 package org.estadisticas.dto;
 
-import jakarta.persistence.Column;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -12,8 +11,10 @@ public class MatchesOutDto {
     private Long idVisit;
     private Long goalsLocal;
     private Long goalsVisit;
-    private Long cardsLocal;
-    private Long cardsVisit;
+    private Long cardsYellowLocal;
+    private Long cardsRedLocal;
+    private Long cardsYellowVisit;
+    private Long cardsRedVisit;
     private Long cornersLocal;
     private Long cornersVisit;
     private Long shotsLocal;
@@ -24,4 +25,5 @@ public class MatchesOutDto {
     private String nameVisit;
     private String imageLocal;
     private String imageVisit;
+    private String result;
 }

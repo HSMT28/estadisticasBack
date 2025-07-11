@@ -31,5 +31,5 @@ public class StadisticsPlayer {
     private Long cards;
 
     @Column(name = "STADISTICS_ID_MATCH")
-    private Long isMatch;
+    private Long idMatch;
 }
