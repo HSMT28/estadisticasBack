@@ -6,6 +6,7 @@ import org.estadisticas.implementations.iservices.ITeamsService;
 import org.estadisticas.model.Teams;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
 
@@ -32,5 +33,10 @@ public class TeamsController {
     @PostMapping("/saveTeam")
     public String saveTeam(@RequestBody TeamDto team) {
         return teamService.saveTeam(team);
+    }
+
+    @PostMapping("/saveImageTeam")
+    public String saveImageTeam(@RequestParam("file") MultipartFile file){
+        return teamService.saveImageTeam(file);
     }
 }

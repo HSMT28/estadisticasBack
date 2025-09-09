@@ -5,23 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7731cacf-d52a-40d6-a273-a3415067e511" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/dto/MatchesDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/dto/PlayerDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/dto/TeamDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sql/scripts.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/scripts.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/estadisticas/controller/MatchesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/controller/MatchesController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/estadisticas/controller/TeamsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/controller/TeamsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/estadisticas/dto/IMatchesOutDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/dto/IMatchesOutDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/estadisticas/dto/MatchesOutDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/dto/MatchesOutDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/estadisticas/implementations/iservices/IMatchesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/implementations/iservices/IMatchesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/estadisticas/dto/MatchesDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/dto/MatchesDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/estadisticas/dto/TeamDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/dto/TeamDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/estadisticas/implementations/iservices/ITeamsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/implementations/iservices/ITeamsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/estadisticas/implementations/services/MatchesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/implementations/services/MatchesService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/estadisticas/implementations/services/TeamsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/implementations/services/TeamsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/estadisticas/mapper/MatchesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/mapper/MatchesMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/estadisticas/model/Matches.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/model/Matches.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/estadisticas/model/StadisticsPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/model/StadisticsPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/estadisticas/repository/MatchesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/estadisticas/repository/MatchesRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,29 +53,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.DatabaseConnection.executor": "Run",
-    "Application.EstadisticasApplication.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Maven.estadisticasBack [clean].executor": "Run",
-    "Maven.estadisticasBack [compile].executor": "Run",
-    "Maven.estadisticasBack [install].executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "dev",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Proyectos_Personal/Estadisticas/estadisticasBack",
-    "onboarding.tips.debug.path": "D:/Users/Repos/RUNT/estadisticasBack/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DatabaseConnection.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EstadisticasApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Maven.estadisticasBack [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.estadisticasBack [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.estadisticasBack [install].executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Proyectos_Personal/Estadisticas/estadisticasBack&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Users/Repos/RUNT/estadisticasBack/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.EstadisticasApplication">
     <configuration name="DatabaseConnection" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.estadisticas.connection.DatabaseConnection" />

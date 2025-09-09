@@ -51,20 +51,27 @@ INSERT INTO LEAGUES(LEAGUE_NAME, LEAGUE_IMAGE, LEAGUE_ID_COUNTRY)
 VALUES
 ('Bundesliga', '/images/bundesliga.png', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'Alemania')),
 ('Bundesliga 2', '/images/bundesliga_2.png', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'Alemania')),
+('Otro', '/images/otro.png', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'Alemania')),
 ('Liga Profesional', '/images/liga_profesional.png', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'Argentina')),
 ('Primera Nacional', '/images/primera_nacional.png', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'Argentina')),
+('Otro', '/images/otro.png', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'Argentina')),
 ('Brasileirao', '/images/brasileirao.png', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'Brasil')),
 ('Campeonato Brasileño Serie B', '/images/brasil_serie_b.png', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'Brasil')),
+('Otro', '/images/otro.png', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'Brasil')),
 ('Liga Betplay', '/images/liga_betplay.png', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'Colombia')),
 ('Torneo Betplay', '/images/torneo_betplay.png', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'Colombia')),
 ('LaLiga', '/images/la_liga.png', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'España')),
 ('LaLiga 2', '/images/la_liga_2.png', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'España')),
+('Otro', '/images/otro.png', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'España')),
 ('Ligue 1', '/images/ligue_1.png', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'Francia')),
 ('Ligue 2', '/images/ligue_2.png', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'Francia')),
+('Otro', '/images/otro.png', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'Francia')),
 ('Premier League', '/images/premier_league.png', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'Inglaterra')),
 ('Championship', '/images/championship.png', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'Inglaterra')),
+('Otro', '/images/otro.png', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'Inglaterra')),
 ('Serie A', '/images/serie_a.png', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'Italia')),
 ('Serie B', '/images/serie_b.png', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'Italia')),
+('Otro', '/images/otro.png', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'Italia')),
 ('Selecciones', '/images/seleccion.png', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'Selecciones')),
 ('Otro', '', (SELECT co.COUNTRY_ID FROM COUNTRY co WHERE co.COUNTRY_NAME = 'Otro'))
 GO
@@ -729,6 +736,7 @@ CREATE TABLE MATCHES
 	SHOTS_VISIT INT NULL,
 	SHOTS_GOAL_LOCAL INT NULL,
 	SHOTS_GOAL_VISIT INT NULL,
+	DATE_MATCH VARCHAR(50) NULL,
 	CONSTRAINT FK_TEAM_MATCH FOREIGN KEY (MATCH_ID_LOCAL) REFERENCES TEAMS(TEAM_ID),
 	CONSTRAINT FK_TEAM_MATCH_2 FOREIGN KEY (MATCH_ID_VISIT) REFERENCES TEAMS(TEAM_ID)
 )

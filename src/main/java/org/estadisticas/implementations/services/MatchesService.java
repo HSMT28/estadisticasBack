@@ -88,6 +88,7 @@ public class MatchesService implements IMatchesService {
         match.setShotsVisit(Long.parseLong(input.getShotsVisitor()));
         match.setShotsGoalLocal(Long.parseLong(input.getShotsGoalLocal()));
         match.setShotsGoalVisit(Long.parseLong(input.getShotsGoalVisitor()));
+        match.setDateMatch(input.getDateMatch());
 
         return matchesRepository.save(match);
     }

@@ -25,4 +25,5 @@ public class MatchesDto {
     private String shotsVisitor;
     private List<PlayerDto> statsPlayer;
     private String visitorTeam;
+    private String dateMatch;
 }

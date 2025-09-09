@@ -53,4 +53,7 @@ public class Matches {
 
     @Column(name = "SHOTS_GOAL_VISIT")
     private Long shotsGoalVisit;
+
+    @Column(name = "DATE_MATCH")
+    private String dateMatch;
 }
